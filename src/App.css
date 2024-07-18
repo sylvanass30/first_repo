@@ -1,0 +1,40 @@
+.app-wrapper{
+  margin: auto;
+  display: grid;
+  width: 1200px;
+  grid-template-areas:
+"h h"
+"n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+ /* grid-gap: 10px;*/
+}
+.header{
+  grid-area: h;
+  background-color: green;
+  
+  }
+.header img{
+  width: 20px;
+}
+.nav {
+  grid-area: n;
+
+}
+.nav a{
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.content{
+  grid-area: c;
+}
+.content img{
+  width: 1000px;
+}
+.content .ava{
+  width: 100px;
+}
