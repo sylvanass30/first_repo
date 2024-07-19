@@ -11,6 +11,7 @@ const App =()=> {
       <Nav/>
         <ProfileComponent/>
       <a>ssytlka</a>
+      <a>ssytlka22222222222222222222</a>
     </div>
   );
 }
