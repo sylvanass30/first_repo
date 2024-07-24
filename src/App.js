@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import ProfileComponent from './components/ProfileComponent';
+import Header from './components/Header/Header.js';
+import Nav from './components/Nav/Nav.js';
+import ProfileComponent from './components/ProfileComponents/ProfileComponent.js';
 
 const App =()=> {
   return (
@@ -10,8 +10,7 @@ const App =()=> {
         <Header/>
       <Nav/>
         <ProfileComponent/>
-      <a>ssytlka</a>
-      <a>ssytlka22222222222222222222</a>
+     
     </div>
   );
 }

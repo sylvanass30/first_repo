@@ -1,0 +1,13 @@
+.nav {
+    grid-area: n;
+  
+  }
+
+  .item {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .item.active{
+    color:gold;
+  }

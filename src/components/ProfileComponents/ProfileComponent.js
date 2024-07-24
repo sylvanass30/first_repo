@@ -1,4 +1,5 @@
 import React from "react";
+import s from "./ProfileComponents.module.css"
 
 const ProfileComponent =()=>{
     return (
@@ -8,14 +9,16 @@ const ProfileComponent =()=>{
         <img className="ava" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQOa8CUzWDdzjNqEk4KL1LlJctwUpjfHYN-Q&s'/>
         ava + discription
         </div>
-        <div>
+        <div className={s.posts}>
+        <div className={s.item}>
           my posts
         </div>
-        <div>
+        <div className={s.item}>
           new post
         </div>
-        <div>
+        <div className={s.item}>
           old posts
+        </div>
         </div>
       </div>
     )
