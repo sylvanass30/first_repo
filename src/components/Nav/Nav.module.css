@@ -1,6 +1,6 @@
 .nav {
     grid-area: n;
-  
+    padding: 20px;
   }
 
   .item {
@@ -8,6 +8,8 @@
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  .item.active{
-    color:gold;
+  .active {
+    color: rgb(243, 45, 104);
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }

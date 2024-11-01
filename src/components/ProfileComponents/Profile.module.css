@@ -1,0 +1,14 @@
+.content{
+    grid-area: c;
+  }
+  .content img{
+    width: 1000px;
+  }
+  .content .ava{
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  .item {
+    color: red;
+  }

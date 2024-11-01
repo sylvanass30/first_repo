@@ -1,0 +1,8 @@
+.bestfriends img{
+    width: 50px;
+    vertical-align: middle;
+}
+.bestfriends{
+    grid-area: h;
+
+}

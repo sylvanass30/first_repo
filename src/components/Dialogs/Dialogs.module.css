@@ -1,0 +1,25 @@
+.dialogs{
+display: grid;
+grid-template-columns: 2fr 10fr;
+}
+.dialog{
+    /* font-size: 10px; */
+    
+}
+.dialog img{
+    width: 50px;
+    margin: 5px;
+    vertical-align: middle;
+}
+.dialogsItems{
+padding: 5px;
+}
+.dialogsItems .active{
+color:gold
+}
+.messages {
+padding: 10px;
+/* text-align: right; */;
+
+}
+
